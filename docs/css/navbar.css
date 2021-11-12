@@ -1,0 +1,158 @@
+/* -------------------------------------------------------------------------- */
+/* Header inicio de estilos*/
+header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3.35em;
+  background: #fff;
+  border-bottom: 1px solid #dfdfdf;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  z-index: 1;
+}
+
+nav {
+  width: 94%;
+  max-width: 1000px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  vertical-align: middle;
+}
+
+input {
+  border: 1px solid #dfdfdf;
+  background: #fafafa;
+  height: 2em;
+  margin: 0.8em;
+  width: 16.1em;
+  border: 0.07em solid #dbdbdb;
+  border-radius: 0.2em;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-59%);
+}
+
+input::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+  /* text-align: center; */
+}
+
+.iconos {
+  height: 22px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icono {
+  height: 100%;
+  cursor: pointer;
+  margin: 0 10px;
+  /* margin: 0 8px; */
+  display: inline-block;
+}
+
+/* .foto-perfil {
+  width: 22px;
+  border-radius: 50%;
+  background-image: url(../img/perfil/foto-perfil.jpg);
+  background-size: cover;
+}
+
+.foto-perfil::after {
+  border: 1 px solid rgba(0, 0, 0, 0.0975);
+  border: 1 px solid rgba(var(--jb7, 0, 0, 0), 0.0975);
+  border-radius: 50%;
+  bottom: 0;
+  content: '';
+  left: 0;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+} */
+
+.foto-perfil span {
+  width: 22px;
+  height: 22px;
+}
+
+.foto-perfil img {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.borde {
+  /* border: 1px solid #262626; */
+  border: 1px solid rgba(38, 38, 38, 1);
+  border-radius: 50%;
+  height: 28px;
+  left: 91.7%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 28px;
+}
+/* Header fin de estilos */
+/* -------------------------------------------------------------------------- */
+/* Icono home inicio de estilos */
+.icon-inicio {
+  color: rgba(var(--i1d, 38, 38, 38), 1);
+  position: relative;
+}
+
+.icon-inicio::after {
+  background: #ed4956;
+  background: rgba(var(--c37, 237, 73, 86), 1);
+  border-radius: 2px;
+  bottom: -10px;
+  content: '';
+  height: 4px;
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  transition: bottom 0.2s ease-in-out;
+  width: 4px;
+}
+/* Icono home fin de estilos */
+/* -------------------------------------------------------------------------- */
+/* Icono direct inicio de estilos */
+.wraper-notificacion {
+  display: flex;
+  border: 0;
+  text-decoration: none;
+  position: relative;
+}
+
+.posicion-notificacion {
+  color: rgba(var(--fe0, 0, 55, 107), 1);
+  position: absolute;
+  right: -8px;
+  top: -6px;
+}
+
+.numero-noti {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  border-radius: 100px;
+  color: rgba(var(--de5, 255, 255, 255), 1);
+  font-size: 11px;
+  height: 18px;
+  justify-content: center;
+  min-width: 18px;
+  background-color: rgba(var(--c37, 237, 73, 86), 1);
+}
+/* Icono direct fin de estilos */
+/* -------------------------------------------------------------------------- */
