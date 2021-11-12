@@ -2,7 +2,7 @@
 /* Bio */
 .bio {
   display: grid;
-  grid-template-columns: 30% 55%;
+  grid-template-columns: 30% 40%;
   padding: 2em 0 3em 3.2em;
   border-bottom: 0.2px solid #dbdbdb;
   padding-top: 5em;
@@ -27,7 +27,8 @@
 }
 
 h2 {
-  color: #545454;
+  /* color: #545454; */
+  color: rgba(38, 38, 38, 0.822);
   font-style: normal;
   font-weight: 300;
   font-size: 25px;
@@ -56,7 +57,7 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-content: start;
-  gap: 1.5em;
+  gap: 1.4em;
   padding-top: 0.5em;
 }
 
@@ -72,47 +73,42 @@ h2 {
   justify-content: space-between;
 }
 
-.estadisticas b {
-  color: #000;
-}
-
-.texto-publicacion {
-  color: #545454;
+.texto-publicacion,
+.nombre {
+  /* color: #545454; */
+  color: rgba(38, 38, 38, 0.9);
   /* color: rgba(var(--texto-transparente,38,38,38),1) !important; */
 }
+
 /* -------------------------------------------------------------------------- */
 /* Sub menú inicio de estilos */
 .sub-menu {
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  margin: auto;
-  width: 70%;
-  max-width: 1000px;
-  /* padding: 1.5em; */
+  justify-content: center;
+  gap: 4em;
 }
 
 .sub-menu a:link,
-a:visited,
-a:focus,
-a:hover,
-a:active {
+.sub-menu a:visited,
+.sub-menu a:focus,
+.sub-menu a:hover,
+.sub-menu a:active {
   text-decoration: none;
   text-transform: uppercase;
   display: flex;
-  flex-direction: row;
   gap: 0.4em;
   align-items: center;
-  font-weight: 500;
-  font-size: 13px;
+  font-weight: 600;
+  font-size: 12px;
   /* color: #545454b2; */
   color: rgba(142, 142, 142, 1);
-  margin-top: -0.4px;
-  padding: 1.2em;
+  margin-top: -1px;
+  padding: 1.5em 0 1.2em 0;
+  /* margin-right: 9.1em; */
 }
 
 .sub-menu a:first-child {
-  font-weight: 400;
+  font-weight: 600;
   color: rgba(38, 38, 38, 1);
   border-top: 1px solid rgba(38, 38, 38, 1);
 }
