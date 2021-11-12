@@ -22,7 +22,6 @@
 body {
   width: 100%;
   background: #fafafa;
-  position: relative;
   font-family: 'Open Sans', Roboto, sans-serif;
 }
 /* Estilos generales fin de estilos */
@@ -33,3 +32,31 @@ main {
   max-width: 1000px;
   margin: auto;
 }
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* @media (max-width: 1100px) {
+  .right-col,
+  .search-box {
+    display: none;
+  }
+  .nav-wrapper,
+  .wrapper {
+    width: 90%;
+  }
+  .wrapper {
+    display: block;
+  }
+}
+
+@media (max-width: 500px) {
+  .nav-items .icon {
+    margin: 0 5px;
+  }
+  .post-image {
+    height: 300px;
+  }
+} */
