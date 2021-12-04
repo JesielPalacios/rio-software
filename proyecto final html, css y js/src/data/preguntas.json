@@ -5,7 +5,7 @@
     "respuesta": "Verdadero",
     "incorrecta": "Falso",
     "imagen": "https://res.cloudinary.com/practicaldev/image/fetch/s--UFnzCH1y--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/kwam3jlrr3oi9n9m50yr.png",
-    "object_fit": "cover",
+    "object_fit": "contain",
     "descripcion": "Imágen alusiva a la pila de variables en el lenguaje de programación JavaScript que se utiliza en páginas web y muchos enfoques de la programación. "
   },
   {

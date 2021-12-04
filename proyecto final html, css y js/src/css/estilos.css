@@ -2,15 +2,20 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 body {
-  background: #46178f;
+  background: rgb(70, 23, 143);
+  /* background: #46178f; */
+
+  /* background: rgb(63, 21, 129); */
+  /* background: #3f1581; */
 
   text-align: center;
   font-family: calibri;
   font-size: 120%;
+  position: fixed;
 }
 
 .contenedor {
@@ -70,4 +75,84 @@ body {
 .puntaje {
   padding: 10px;
   color: white;
+}
+
+/* div::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#f00, #f0f);
+    clip-path: circle(30% at right 70%);
+    z-index: -1;
+  }
+
+  div::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#2196f3, #e91e64);
+    clip-path: circle(20% at 10% 10%);
+    z-index: -1;
+  } */
+
+body::before {
+  content: '';
+  position: fixed;
+  width: 75%;
+  height: 75%;
+  background-color: rgb(0, 0, 0);
+  opacity: 0.1;
+  transform: rotate(45deg);
+  top: -36vmin;
+  left: -65vmin;
+  z-index: -1;
+}
+
+body::after {
+  content: '';
+  position: fixed;
+  width: 75%;
+  height: 75%;
+  clip-path: circle(35%);
+  background-color: rgb(0, 0, 0);
+  opacity: 0.1;
+  transform: rotate(45deg);
+  bottom: -15vmin;
+  left: 89vmin;
+  z-index: -1;
+}
+
+@media (max-width: 1100px) {
+  body::before {
+    content: '';
+    position: fixed;
+    width: 65%;
+    height: 65%;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.1;
+    transform: rotate(45deg);
+    top: -40vmin;
+    left: -80vmin;
+    z-index: -1;
+  }
+
+  body::after {
+    content: '';
+    position: fixed;
+    width: 75%;
+    height: 75%;
+    clip-path: circle(27%);
+    background-color: rgb(0, 0, 0);
+    opacity: 0.1;
+    transform: rotate(45deg);
+    bottom: -10vmin;
+    left: 115vmin;
+    z-index: -1;
+  }
 }
