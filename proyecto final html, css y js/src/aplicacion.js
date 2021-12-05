@@ -2,6 +2,8 @@
 import { Quiz } from './modelos/Quiz.js';
 import { InterfazDeUsuario } from './modelos/InterfazDeUsuario.js';
 import { preguntas } from './data/preguntas.js';
+import './estilos/estilos.css'
+import './estilos/vars.styl';
 
 // Renderizando la página
 const renderizarPagina = (quiz, ui) => {

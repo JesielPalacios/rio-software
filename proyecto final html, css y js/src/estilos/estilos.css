@@ -5,7 +5,7 @@ body {
 }
 
 body {
-  background: rgb(70, 23, 143);
+  /* background: rgb(70, 23, 143); */
   display: flex;
   justify-content: center;
   align-items: center;
