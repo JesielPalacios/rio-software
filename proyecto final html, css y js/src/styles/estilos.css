@@ -1,0 +1,130 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: rgb(70, 23, 143);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: calibri;
+  font-size: 15px;
+}
+
+#quiz {
+  background: #e3f6f5;
+  box-shadow: rgb(31 38 135 / 37%) 0px 8px 32px 0px;
+  backdrop-filter: blur(40px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 20px;
+
+  width: 30rem;
+  padding: 4rem;
+  text-align: center;
+}
+
+h1 {
+  color: #57636e;
+  font-size: 3rem;
+  text-align: center;
+  padding: 2px 0px;
+  border-radius: 50px;
+}
+
+#pregunta {
+  font-size: 1.7rem;
+  color: #5a6772;
+}
+
+.botones {
+  margin-top: 30px;
+}
+
+.boton {
+  background-color: #34a3a3;
+  width: 250px;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 0.3rem;
+  padding: 10px 20px;
+  margin: 10px 40px 10px 0px;
+}
+
+#progreso {
+  color: #2b2b2b;
+  font-size: 18px;
+}
+
+#btn0:hover,
+#btn1:hover,
+#btn2:hover,
+#btn3:hover {
+  cursor: pointer;
+  background-color: #57636e;
+}
+
+#btn0:focus,
+#btn1:focus,
+#btn2:focus,
+#btn3:focus {
+  outline: 0;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  width: 75%;
+  height: 75%;
+  background-color: rgb(0, 0, 0);
+  opacity: 0.1;
+  transform: rotate(45deg);
+  top: -36vmin;
+  left: -65vmin;
+  z-index: -1;
+}
+
+body::after {
+  content: '';
+  position: fixed;
+  width: 75%;
+  height: 75%;
+  clip-path: circle(31%);
+  background-color: rgb(0, 0, 0);
+  opacity: 0.1;
+  transform: rotate(45deg);
+  bottom: -15vmin;
+  left: 100vmin;
+  z-index: -1;
+}
+/* 
+@media (max-width: 1100px) {
+  body::before {
+    content: '';
+    position: fixed;
+    width: 65%;
+    height: 65%;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.1;
+    transform: rotate(45deg);
+    top: -40vmin;
+    left: -80vmin;
+    z-index: -1;
+  }
+
+  body::after {
+    content: '';
+    position: fixed;
+    width: 75%;
+    height: 75%;
+    clip-path: circle(27%);
+    background-color: rgb(0, 0, 0);
+    opacity: 0.1;
+    transform: rotate(45deg);
+    bottom: -10vmin;
+    left: 115vmin;
+    z-index: -1;
+  }
+} */
